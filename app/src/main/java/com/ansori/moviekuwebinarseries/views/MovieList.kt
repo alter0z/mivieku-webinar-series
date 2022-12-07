@@ -11,6 +11,7 @@ class MovieList : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityMovieListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        //
     }
 
     override fun onDestroy() {
