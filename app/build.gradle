@@ -13,7 +13,9 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
-
+        buildConfigField("String","BASE_URL",'"https://api.themoviedb.org/3/"')
+        buildConfigField("String","PHOTO_BASE_URL",'"https://image.tmdb.org/t/p/w500/"')
+        buildConfigField("String","API_KEY",'"2ba1ea9298a74029941311c2c6a65e6e"')
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
